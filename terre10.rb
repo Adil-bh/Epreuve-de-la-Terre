@@ -7,11 +7,12 @@
 5* Sinon pas nombre premier
 
 =end
+
 arguments = ARGV
 nombre = arguments[0].to_f
 tableau_diviseurs = []
 
-if nombre == nil || arguments.length != 1 || nombre.to_s.count("a-zA-Z") > 0 || nombre == 0 || nombre == 1
+if nombre == nil || arguments.length != 1 || nombre.to_s.count("a-zA-Z") > 0 || nombre <= 0 || nombre == 1
 	puts "Erreur"
 else
 
@@ -24,7 +25,7 @@ else
 		end
 	end
 
-	#print tableau_diviseurs
+
 
 	if tableau_diviseurs.length == 2
 		puts "Oui, #{nombre.to_i} est un nombre premier."
