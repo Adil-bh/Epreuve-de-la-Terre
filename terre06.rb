@@ -10,7 +10,7 @@
 chaine_de_caractere = ARGV
 chaine_tableau = ARGV[0].chars
 
-compteur = ARGV[0].length
+compteur = chaine_tableau.length
 
 while compteur >=0
 	print chaine_tableau[compteur]

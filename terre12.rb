@@ -21,14 +21,13 @@ if heure > 12 || heure < 0
 elsif minutes > 60 || minutes < 0
 	puts "Erreur"
 else
-
+	#Erreurs d'arguments
 	if arguments.length != 1 || format_12.to_i < 0 || tab.length != 2
 		puts "Erreur"
 		else
 
 		if meridiem == "AM"
-			#Si on entre 12:00AM = Erreur car minuit = 00:00AM
-			if heure == 12
+			if heure == 12 #Si on entre 12:00AM = Erreur / car minuit = 00:00AM
 				puts "Erreur"
 			else
 				puts format_24 % [heure, minutes]
@@ -49,7 +48,7 @@ else
 			if heure != 12 && heure != 0
 				heure = compteur
 				puts format_24 % [heure, minutes]
-			elsif heure == 0	#Dans le cas où on entrerait 00:00PM = Erreur car midi = 12:00PM
+			elsif heure == 0	#Si on entre 00:00PM = Erreur / car midi = 12:00PM
 				puts "Erreur"
 			end
 
