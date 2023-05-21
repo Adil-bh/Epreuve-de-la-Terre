@@ -3,7 +3,7 @@
 1* Je récupère la lettre en argument.
 2* Je mets la lettre dans la variable lettre_de_depart
 3* Je créé un tableau de l'alphabet allant de 0..25 (26 lettres)
-4* Parcourir le tableau alphabet et comparer chaque chaque lettre avec la lettre_de_depart 
+4* Parcourir le tableau alphabet et comparer chaque lettre avec la lettre_de_depart 
 5* Si lettre_de_départ = lettre_tableau_alphabet on récupère l'index de la lettre en question pour le mettre dans index_depart
 6* Créer un nouveau tableau alphabet_tronque allant de index_depart..25
 7* Print chaque élément du tableau alphabet_tronque
