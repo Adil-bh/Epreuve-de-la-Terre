@@ -2,7 +2,7 @@
 
 *1 On récupère les entiers en argument
 *2 On les insère dans 2 tableaux : liste_entiers et liste_entiers_tampon
-*3 On insère liste_entiers_tampon dans l'ordre croissant dans liste_entier_tri 
+*3 On transfère liste_entiers_tampon dans l'ordre croissant dans liste_entier_tri 
 *4 Comparer liste_entiers et liste_entiers_tri
 *5 Si liste_entier = liste_entiers_tri => Triée sinon Pas triée
 
